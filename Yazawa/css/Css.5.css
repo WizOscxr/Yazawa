@@ -1,0 +1,51 @@
+#box-1{
+    background-color: rgb(rgb(138, 13, 13), rgb(35, 73, 35), rgb(42, 42, 123));
+    background-color: aliceblue;
+    background-color: lightblue;
+    /*border-width: 3px; porque siempre suelen des pequeños
+    border-color: azure;
+    border-style: solid; Se puede poner las 3 cosas juntas*/
+    border: 2px greenyellow solid;  
+    border-radius: 10px;
+    border-radius: 5px 10px 15px 5px; /* Esto es para pones una cantonada diferente a cada uno*/
+    box-shadow: lightskyblue 12px 8px 4px; /* Para poner sombras pero el orden si que es important, para que la sobra este para el otro lado tienes que poner un negativo*/
+}
+#box-2{
+    border-top:2px greenyellow dotted;
+    background-color: lightblue;
+}
+#box-3{
+    background-image: url(../imagenes/residential-8278516_1280.jpg);
+    height: 50vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed; /* sirve para que la imagen se quede al fondo y al hacer scroll se vea moverse la imagen */
+    width:80vw;
+    border-radius: 10px;
+    color:whitesmoke;
+    
+}
+
+#box-4{
+    border: lightblue 4px solid;
+    margin: 2rem;/*16px *2 =32px* margin es la distancia que hay entre las letras y el borde y el pading el del margen con lo que le rodea*/
+    padding: 1rem;
+    padding: 1rem 2rem 3rem 4rem;
+}
+.btn{
+    display: block;
+    background-color: rgb(4,143,207);
+    border-radius: 10px;
+    color: rgb(193,239,255);
+    border: 0;
+    border: none;
+    padding:1rem 3rem;
+    margin-bottom: 5rem auto;
+}
+.btn:hover{
+    background-color:rgb(1,106,155);
+    cursor:pointer;
+}
+.btn:active{
+    outline: 1px rgb(1,51,75)inset;
+}
